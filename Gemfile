@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.6'
-gem 'sass-rails', '~> 4.0.3'
-gem 'bootstrap-sass', '~> 3.3.1'
+gem 'sass-rails', '~> 5.0.1'
+gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -11,6 +11,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 gem 'spring', group: :development
 
