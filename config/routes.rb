@@ -15,4 +15,10 @@ end
 
 #/recipes/2/like
 
+
+
+resources :chefs, except: [:new]
+
+get '/register', to: 'chefs#new'
+
 end
